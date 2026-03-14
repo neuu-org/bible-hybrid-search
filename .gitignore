@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
+
+# Large experiment outputs (use git lfs or releases for these)
+experiments/runs/**/*.csv
+experiments/runs/**/*.parquet
